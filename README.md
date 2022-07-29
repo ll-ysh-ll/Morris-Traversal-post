@@ -13,7 +13,7 @@
 
 ### Complexity analysis
 
-Both recursive and iterative traversal will take O(n) space in worst case, while Morris traversal will take O(1) space.
+Both recursive and iterative traversal takes O(n) space in worst case, while Morris traversal will take O(1) space.
 - T.C: O(n)
 - S.C: O(n)
 
