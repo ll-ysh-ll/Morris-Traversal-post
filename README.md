@@ -30,6 +30,10 @@ Both recursive and iterative traversal will take O(n) space in worst case, while
 ##### Threaded Binary Tree 
 > The idea of threaded binary trees is to make inorder traversal faster and do it without stack and without recursion. A binary tree is made threaded by making all right child pointers that would normally be NULL point to the inorder successor of the node (if it exists).
 
+<p align="center">
+<img src="https://github.com/ll-ysh-ll/Morris-Traversal-post/blob/master/Threaded%20Binary%20Tree.jpg">
+</p>
+
 Algorithm 
 
 ```sh
