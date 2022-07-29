@@ -50,7 +50,7 @@ Both recursive and iterative traversal will take O(n) space in worst case, while
 ### Python Code 
 
 ```python 
-def inorderTraversal(self, root: TreeNode) -> List[int]:
+def inorderMorrisTraversal(self, root: TreeNode) -> List[int]:
     curr = root
     res = []
     while curr:
