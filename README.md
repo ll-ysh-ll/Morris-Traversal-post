@@ -17,15 +17,16 @@ Both recursive and iterative traversal will take O(n) space in worst case, while
 - T.C: O(n)
 - S.C: O(n)
 
+> Note: Only `Inorder traversal` has been discussed in this article.
 
-#### Threaded Binary Tree 
+### Threaded Binary Tree 
 > The idea of threaded binary trees is to make inorder traversal faster and do it without stack and without recursion. A binary tree is made threaded by making all right child pointers that would normally be NULL point to the inorder successor of the node (if it exists).
 
 <p align="center">
 <img src="https://github.com/ll-ysh-ll/Morris-Traversal-post/blob/master/Threaded%20Binary%20Tree.jpg"  width="575">
 </p>
 
-#### Algorithm 
+### Algorithm 
 
 ```sh
 1. initialize current as root 
@@ -41,12 +42,12 @@ Both recursive and iterative traversal will take O(n) space in worst case, while
       b) go to the right
 ```
 
-#### Visual Representaion
+### Visual Representaion
 <p align="center">
 <img src="https://github.com/ll-ysh-ll/Morris-Traversal-post/blob/master/Morris_Traversal_gif.gif" width="575"/>
 </p>
 
-#### Python Code 
+### Python Code 
 
 ```python 
 def inorderTraversal(self, root: TreeNode) -> List[int]:
