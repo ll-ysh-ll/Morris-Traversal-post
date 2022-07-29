@@ -42,7 +42,7 @@ Both recursive and iterative traversal will take O(n) space in worst case, while
       b) go to the right
 ```
 
-### Visual Representaion
+### Visual Representation 
 <p align="center">
 <img src="https://github.com/ll-ysh-ll/Morris-Traversal-post/blob/master/Morris_Traversal_gif.gif" width="575"/>
 </p>
