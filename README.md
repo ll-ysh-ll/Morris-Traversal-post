@@ -2,34 +2,23 @@
 ### Quick Introduction :
 ##### Tree :
 - > Tree is a hierarchical data structure which stores the information naturally in the form of hierarchy unlike linear data structures like, Linked List, Stack, etc. A tree contains nodes(data) and connections(edges) which should not form a cycle.
-##### Tree Traversal
+##### Tree Traversal :
 - > “In computer science, tree traversal (also known as tree search) is a form of graph traversal and refers to the process of visiting (checking and/or updating) each node in a tree data structure, exactly once. Such traversals are classified by the order in which the nodes are visited.” — Wikipedia
 
-Tree Traversal Algorithms can be classified broadly in the following two categories by the order in which the nodes are visited:
+##### Tree Traversal Algorithms :
 
-- Depth-First Search (DFS) Algorithm: It starts with the root node and first visits all nodes of one branch as deep as possible of the chosen Node and before backtracking, it visits all other branches in a similar fashion. There are three sub-types under this, which we will cover in this article.
-- Breadth-First Search (BFS) Algorithm: It also starts from the root node and visits all nodes of current depth before moving to the next depth in the tree. We will cover one algorithm of BFS type in the upcoming section.
-
-##### 4 Types of Tree Traversal Algorithms: 
-- Inorder Traversal
-- Preorder Traversal
-- Postorder Traversal
-- Level Order Traversal
+- Depth-First Search (DFS) Algorithm
+- Breadth-First Search (BFS) Algorithm
 
 
 ### Complexity analysis
 
-##### Complexity analysis for recursive solution:
-- T.C: O(n)
-- S.C: O(n)
-
-##### Complexity analysis for iterative solution:
-- T.C: O(n)
-- S.C: O(n)
-
 Both recursive and iterative traversal will take O(n) space in worst case, while Morris traversal will take O(1) space.
+- T.C: O(n)
+- S.C: O(n)
 
-##### Threaded Binary Tree 
+
+#### Threaded Binary Tree 
 > The idea of threaded binary trees is to make inorder traversal faster and do it without stack and without recursion. A binary tree is made threaded by making all right child pointers that would normally be NULL point to the inorder successor of the node (if it exists).
 
 <p align="center">
@@ -81,7 +70,7 @@ def inorderTraversal(self, root: TreeNode) -> List[int]:
     return res
 ```
 
-#### references :
+#### References :
 
 [c why you should be aware of morris traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/discuss/2153281/c-why-you-should-be-aware-of-morris-traversal)
 
